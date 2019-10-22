@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Техномарт</title>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="header-top">
+            <div class="main-logo">
+                <a href="#">Техномарт</a>
+            </div>
+            <div class="form-search">
+                <form action="" method="get">
+                    <lable for="search" class="visually-hidden">Поиск</lable>
+                    <input type="text" name="search" id="search" placeholder="Поиск">
+                    <button type="submit" class="search-button"></button>
+                </form>
+            </div>
+            <div class="header-bookmark">
+                <a href="#">Закладки: <span class="header-bookmark-counter">0</span></a>
+            </div>
+            <div class="header-cart">
+                <a href="#">Корзина: <span class="header-cart-counter">0</span></a>
+            </div>
+            <div class="header-place-order">
+                <a href="#">Оформить заказ</a>
+            </div>
+        </div>
+        <div class="header-middle">
+            <div class="about-market">
+                <p>Интернет-магазин строительных материалов и инструментов для ремонта</p>
+            </div>
+            <div class="contact-info">
+                <b class="contact-phone">+7 (812) 555-05-55</b>
+                <p class="contact-address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+            </div>
+            <div class="user-cabinet-elements">
+                <button type="button" class="user-login">Войти</button>
+                <button type="button" class="user-registration">Регистрация</button>
+            </div>
+        </div>
+        <nav class="main-navigation">
+            <ul class="main-menu">
+                <li class="menu-item"><a href="#">Главная</a></li>
+                <li class="menu-item"><a href="#">Компания</a></li>
+                <li class="menu-item"><a href="#">Каталог</a></li>
+                <li class="menu-item"><a href="#">Новости</a></li>
+                <li class="menu-item"><a href="#">Спецпредложения</a></li>
+                <li class="menu-item"><a href="#">Доставка</a></li>
+                <li class="menu-item"><a href="#">Контактым</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="visually-hidden">Интернет-магазин Техномарт</h1>
+        <section class="promo">
+            <div class="type-of-goods">
+                <h2 class="visually-hidden">Типы товаров</h2>
+                <ul class="type-of-goods-list">
+                    <li class="type-of-goods-item">
+                        <h3 class="type-of-goods-item-title">Материалы</h3>
+                        <a href="#">На любой вкус</a>
+                    </li>
+                    <li class="type-of-goods-item">
+                        <h3 class="type-of-goods-item-title">Инструмент</h3>
+                        <a href="#">На все случаи</a>
+                    </li>
+                    <li class="type-of-goods-item">
+                        <h3 class="type-of-goods-item-title">Техника</h3>
+                        <a href="#">Для стройки</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="promo-slider">
+                <h2 class="visually-hidden">Промо слайдер</h2>
+                <div class="slider slider-1">
+                    <div class="slider-logo">
+                        <img src="img/slider-1.jpg" width="620" height="266" alt="Изображение работника с дрелью">
+                    </div>
+                    <div class="slider-card">
+                        <h3 class="slider-title">Дрели</h3>
+                        <p class="slider-slogan">Соседям на радость</p>
+                        <button type="button" class="slider-arrow slider-arrow-backward"></button>
+                        <button type="button" class="slider-arrow slider-arrow-forward"></button>
+                        <a href="catalog.html" class="catalog-link">Открыть каталог</a>
+                    </div>
+                </div>
+                <div class="slider slider-2">
+                    <div class="slider-logo">
+                        <img src="img/slider-2.jpg" width="620" height="266" alt="Изображение работника с перфоратором">
+                    </div>
+                    <div class="slider-card">
+                        <h3 class="slider-title">Перфораторы</h3>
+                        <p class="slider-slogan">Настоящие мужские игрушки</p>
+                        <button type="button" class="slider-arrow slider-arrow-backward"></button>
+                        <button type="button" class="slider-arrow slider-arrow-forward"></button>
+                        <a href="catalog.html" class="catalog-link">Открыть каталог</a>
+                    </div>
+                </div>
+            </div>
+            <div class="benefits">
+                <h2 class="visually-hidden">Дополнительные преимущества</h2>
+                <ul class="benefits-list">
+                    <li class="benefits-item">
+                        <h3 class="benefits-title">Скидки 50%</h3>
+                        <a href="#">На 350 товаров</a>
+                    </li>
+                    <li class="benefits-item">
+                        <h3 class="benefits-title">Доставка</h3>
+                        <a href="#">Бесплатно</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="popular-goods">
+            <div class="popular-goods-title-wrap">
+                <h2 class="popular-goods-title">Популярные товары:</h2>
+                <a href="#" class="popular-button">Все популярные товары</a>
+            </div>
+            <ul class="popular-goods-list">
+                <li class="popular-goods-item">
+                    <span class="popular-goods-img"><img src="img/popular_1.jpg" width="184" height="164"
+                            alt="Перфоратор BOSCH BFG 9000"></span>
+                    <h3 class="popular-goods-item-title">Перфоратор BOSCH BFG 9000</h3>
+                    <b class="last-price">32500 Р.</b>
+                    <b class="current-price">25500 Р.</b>
+                </li>
+                <li class="popular-goods-item">
+                    <span class="popular-goods-img"><img src="img/popular_2.jpg" width="127" height="112"
+                            alt="Перфоратор BOSCH BFG 3000"></span>
+                    <h3 class="popular-goods-item-title">Перфоратор BOSCH BFG 3000</h3>
+                    <b class="last-price">22500 Р.</b>
+                    <b class="current-price">15500 Р.</b>
+                </li>
+                <li class="popular-goods-item">
+                    <span class="popular-goods-img"><img src="img/popular_3.jpg" width="144" height="128"
+                            alt="Перфоратор BOSCH BFG 6000"></span>
+                    <h3 class="popular-goods-item-title">Перфоратор BOSCH BFG 6000</h3>
+                    <b class="last-price">30500 Р.</b>
+                    <b class="current-price">25500 Р.</b>
+                </li>
+                <li class="popular-goods-item">
+                    <span class="popular-goods-img"><img src="img/popular_4.jpg" width="127" height="112"
+                            alt="Перфоратор BOSCH BFG 2000"></span>
+                    <h3 class="popular-goods-item-title">Перфоратор BOSCH BFG 2000</h3>
+                    <b class="last-price"></b>
+                    <b class="current-price">12500 Р.</b>
+                </li>
+            </ul>
+        </section>
+        <section class="popular-brand">
+            <div class="popular-brand-title-wrap">
+                <h2 class="popular-barand-title">Популярные производители:</h2>
+                <a href="#" class="popular-brand-button">Все производители</a>
+            </div>
+            <ul class="popular-brand-list">
+                <li class="popular-brand-item">
+                    <a href="#">
+                        <img src="img/brand_1.png" width="126" height="37" alt="Логотип Bosch">
+                    </a>
+                </li>
+                <li class="popular-brand-item">
+                    <a href="#">
+                        <img src="img/brand_2.png" width="123" height="40" alt="Логотип Makita">
+                    </a>
+                </li>
+                <li class="popular-brand-item">
+                    <a href="#">
+                        <img src="img/brand_3.png" width="146" height="44" alt="Логотип DeWalt">
+                    </a>
+                </li>
+                <li class="popular-brand-item">
+                    <a href="#">
+                        <img src="img/brand_4.png" width="200" height="88" alt="Логотип Интерскол">
+                    </a>
+                </li>
+                <li class="popular-brand-item">
+                    <a href="#">
+                        <img src="img/brand_5.png" width="169" height="31" alt="Логотип Hitachi">
+                    </a>
+                </li>
+                <li class="popular-brand-item">
+                    <a href="#">
+                        <img src="img/brand_6.png" width="121" height="73" alt="Логотип LG">
+                    </a>
+                </li>
+                <li class="popular-brand-item">
+                    <a href="#">
+                        <img src="img/brand_7.png" width="151" height="96" alt="Логотип AEG">
+                    </a>
+                </li>
+                <li class="popular-brand-item">
+                    <a href="#">
+                        <img src="img/brand_8.png" width="204" height="69" alt="Логотип Metabo">
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <section class="services">
+            <h2 class="services-title">Сервисы</h2>
+            <p class="about-services">Хороший интернет-магазин отличается от плохого не только ценами!
+                Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
+            <div class="services-wrap">
+                <ul class="services-list">
+                    <li class="services-item"><a href="#">Доставка</a></li>
+                    <li class="services-item"><a href="#">Гарантия</a></li>
+                    <li class="services-item"><a href="#">Кредит</a></li>
+                </ul>
+                <div class="services-slider delivery">
+                    <h3 class="services-slider-title">Доставка</h3>
+                    <p class="services-slider-description">Мы с удовольствием доставим ваш товар прямо
+                        к вашему подъезду совершенно бесплатно!
+                        Ведь мы неплохо заработаем,
+                        поднимая его на ваш этаж!</p>
+                    <span class="services-slider-logo"><img src="img/services_delivery.png" width="206" height="146"
+                            alt="Грузовик"></span>
+                </div>
+                <div class="services-slider guarantee">
+                    <h3 class="services-slider-title">Гарантия</h3>
+                    <p class="services-slider-description">Если купленный у нас товар поломается или заискрит,
+                        а также в случае пожара, спровоцированного его возгаранием, вы всегда можете быть уверены в
+                        нашей гарантии. Мы обменяем сгоревший товар на новый.
+                        Дом уж восстановите как-нибудь сами.</p>
+                    <span class="services-slider-logo"><img src="img/services_guarantee.png" width="170" height="172"
+                            alt="Знак качества"></span>
+                </div>
+                <div class="services-slider credit">
+                    <h3 class="services-slider-title">Кредит</h3>
+                    <p class="services-slider-description">Залезть в долговую яму стало проще!
+                        Кредитные консультанты придут вам на помощь.</p>
+                    <button type="button" class="credit-slider-button">Отправить заявку</button>
+                    <span class="services-slider-logo"><img src="img/services_credit.png" width="181" height="184"
+                            alt="Кредитный договор"></span>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="main-footer">
+
+    </footer>
+
+</body>
+
+</html>
