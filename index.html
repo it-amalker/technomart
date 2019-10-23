@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <title>Техномарт</title>
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Cuprum:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700&display=swap&subset=cyrillic"
+        rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 </head>
@@ -73,8 +74,11 @@
                     <button type="button" class="user-registration-button">Регистрация</button>
                 </div>
                 <div class="authorization-active">
-                    <p class="user-name">Равшан Джамшутович</p>
-                    <button type="button" class="user-logout-button">Выход</button>
+                    <div class="user-wrapper">
+                        <p class="user-name">Равшан Джамшутович</p>
+                        <button type="button" class="user-logout-button"><span
+                                class="visually-hidden">Выход</span></button>
+                    </div>
                     <ul class="user-menu">
                         <li class="user-menu-item"><a href="#">Мои заказы</a></li>
                         <li class="user-menu-item"><a href="#">Личный кабинет</a></li>
