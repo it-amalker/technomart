@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    width: 960px;
+    width: 940px;
 
     margin: 0 auto;
     padding: 0 10px;
@@ -508,4 +508,47 @@ input[type="radio"].visually-hidden {
 
 .user-menu-item a:active {
     color: rgba(0, 0, 0, 0.3)
+}
+
+.main-menu {
+    display: flex;
+
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.menu-item a {
+    display: block;
+    padding: 19px 29px 24px 29px;
+
+    font-size: 17px;
+    line-height: 17px;
+
+    text-decoration: none;
+
+    color: #fff;
+    background-color: #32425c;
+    box-shadow: inset 0px -5px 0px 0px rgba(41, 52, 73, 1);
+}
+
+.menu-item:first-child a {
+    padding-left: 52px;
+    padding-right: 32px;
+}
+
+.menu-item:last-child a {
+    padding-left: 33px;
+    padding-right: 55px;
+}
+
+.menu-item a:hover {
+    background-color: #293449;
+}
+
+.menu-item a:active {
+    background-color: #1d2739;
+    color: rgba(255, 255, 255, 0.5);
+
 }
