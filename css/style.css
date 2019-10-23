@@ -1,0 +1,233 @@
+body {
+    min-width: 960px;
+
+    font-family: 'Cuprum', 'Arial', sans-serif;
+    font-size: 14px;
+
+    color: #000;
+    background-color: #fff;
+}
+
+.container {
+    width: 960px;
+
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+    position: absolute;
+
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+
+    -webkit-clip-path: inset(100%);
+
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.main-header {
+    min-height: 320px;
+
+    background-image: linear-gradient(to bottom, #293449 42px, #f4f7f9 42px);
+}
+
+.header-top {
+    display: flex;
+
+    font-size: 17px;
+    line-height: 18px;
+
+    color: #fff;
+}
+
+.main-logo {
+    position: relative;
+
+    margin-bottom: -5px;
+    padding: 9px 55px;
+    padding-bottom: 14px;
+
+
+    font-size: 24px;
+    line-height: 24px;
+
+    text-transform: uppercase;
+
+    background-color: #ee3643;
+
+    box-shadow: inset 0px -5px 0px 0px rgba(0, 0, 0, 0.24);
+}
+
+.main-logo:hover {
+    background-color: #ca2c37;
+}
+
+.main-logo:active {
+    background-color: #ba2732;
+}
+
+.form-search {
+    position: relative;
+
+    width: 270px;
+}
+
+.form-search input {
+    padding: 11px 49px 13px 49px;
+
+    box-sizing: border-box;
+    width: 100%;
+
+    color: #000;
+    background-color: transparent;
+    border: none;
+}
+
+.form-search:hover {
+    background-color: #212a3a;
+}
+
+.form-search input:focus {
+    background-color: #fff;
+}
+
+.form-search input::placeholder {
+    font-size: 17px;
+    line-height: 18px;
+
+    color: #fff;
+}
+
+.search-button {
+    position: absolute;
+
+    padding: 0;
+
+    width: 17px;
+    height: 17px;
+
+    top: 11px;
+    left: 17px;
+
+    background-color: transparent;
+
+    border: none;
+}
+
+.search-button svg {
+    fill: #fff;
+    opacity: 0.3;
+}
+
+.form-search:hover svg {
+    fill: #fff;
+    opacity: 1;
+}
+
+.search-input:focus+.search-button svg {
+    fill: #f26b74;
+    opacity: 1;
+}
+
+.header-bookmark,
+.header-cart {
+    position: relative;
+
+    width: 150px;
+}
+
+.header-bookmark a,
+.header-cart a {
+    display: block;
+    padding: 12px 19px 12px 43px;
+
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-cart a {
+    padding: 12px 20px 12px 49px;
+}
+
+.header-bookmark svg {
+    position: absolute;
+
+    width: 14px;
+    height: 16px;
+
+    top: 12px;
+    left: 17px;
+
+    fill: #fff;
+    opacity: 0.3;
+}
+
+.header-cart svg {
+    position: absolute;
+
+    width: 15px;
+    height: 15px;
+
+    top: 12px;
+    left: 18px;
+
+    fill: #fff;
+    opacity: 0.3;
+}
+
+.header-bookmark a:hover,
+.header-cart a:hover {
+    background-color: #212a3a;
+}
+
+.header-bookmark a:active,
+.header-cart a:active {
+    background-color: #161d29;
+    color: rgba(255, 255, 255, 0.6)
+}
+
+.header-bookmark:hover svg,
+.header-cart:hover svg {
+    fill: #fff;
+    opacity: 1;
+}
+
+.header-bookmark:active svg,
+.header-cart:active svg {
+    fill: #fff;
+    opacity: 0.5;
+}
+
+.header-place-order {
+    width: 150px;
+}
+
+.header-place-order a {
+    display: block;
+
+    padding: 12px 21px;
+
+    text-decoration: none;
+
+    color: #fff;
+    background-color: #63a63e;
+}
+
+.header-place-order a:hover {
+    background-color: #5fbb2d;
+}
+
+.header-place-order a:active {
+    background-color: #518534;
+    color: rgba(255, 255, 255, 0.51)
+}
