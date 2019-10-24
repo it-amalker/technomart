@@ -1269,3 +1269,178 @@ input[type="radio"].visually-hidden {
     width: 204px;
     height: 69px;
 }
+
+.services {
+    padding: 63px 0 102px 0;
+
+    background-color: #f4f8f9;
+}
+
+.services-title {
+    margin: 0;
+    padding-bottom: 29px;
+
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.about-services {
+    width: 400px;
+    margin: 0;
+    padding-bottom: 69px;
+
+    font-size: 13px;
+    line-height: 24px;
+    font-family: 'PT Sans', 'Arial', sans-serif;
+}
+
+.services-slider-wrap {
+    display: flex;
+}
+
+.services-list {
+    position: relative;
+
+    width: 240px;
+    margin: 0;
+    margin-right: 60px;
+    padding: 0;
+
+    list-style: none;
+}
+
+.services-list::after {
+    content: "";
+
+    position: absolute;
+    top: -47px;
+    right: 0;
+
+    width: 4px;
+    height: 272px;
+
+    background: url("../img/shadow_line.png") center no-repeat;
+}
+
+.services-item a {
+    display: block;
+    padding: 15px 0 16px 0;
+    padding-left: 23px;
+
+    font-size: 21px;
+    line-height: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+
+    background-color: #32425c;
+    box-shadow: 0 1px 0 0 #293449, inset 0 1px 0 0 #405069;
+}
+
+.services-item a:hover {
+    background-color: #293449;
+}
+
+.services-item.active a {
+    display: block;
+    padding: 15px 0 16px 0;
+    padding-left: 23px;
+
+    font-size: 21px;
+    line-height: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #32425c;
+
+    background-color: #ffffff;
+    box-shadow: 0 1px 0 0 #ffffff;
+}
+
+.services-slider {
+    position: relative;
+
+    width: 700px;
+}
+
+.delivery {
+    display: none;
+}
+
+.guarantee {
+    display: none;
+}
+
+.credit {
+    display: block;
+}
+
+.services-slider-title {
+    width: 280px;
+    margin: 0;
+    padding-bottom: 25px;
+
+    font-size: 36px;
+    line-height: 36px;
+    color: #32425c;
+}
+
+.services-slider-description {
+    width: 280px;
+    margin: 0;
+
+    font-size: 13px;
+    line-height: 24px;
+    font-family: 'PT Sans', 'Arial', sans-serif;
+}
+
+.guarantee .services-slider-description {
+    width: 375px;
+}
+
+.credit .services-slider-description {
+    padding-bottom: 25px;
+}
+
+.delivery::after {
+    content: "";
+
+    position: absolute;
+    top: 23px;
+    right: 0;
+
+    width: 468px;
+    height: 261px;
+    background: url("../img/services_delivery.png") center no-repeat;
+}
+
+.guarantee::after {
+    content: "";
+
+    position: absolute;
+    top: 1px;
+    right: -7px;
+
+    width: 389px;
+    height: 283px;
+    background: url("../img/services_guarantee.png") center no-repeat;
+}
+
+.credit::after {
+    content: "";
+
+    position: absolute;
+    top: 0px;
+    right: 0;
+
+    width: 465px;
+    height: 285px;
+    background: url("../img/services_credit.png") center no-repeat;
+}
+
+.credit-slider-button {
+    width: 195px;
+
+    border: none;
+
+}

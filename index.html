@@ -99,9 +99,9 @@
             </ul>
         </nav>
     </header>
-    <main class="container">
+    <main>
         <h1 class="visually-hidden">Интернет-магазин Техномарт</h1>
-        <section class="promo">
+        <section class="promo container">
             <div class="type-of-goods">
                 <h2 class="visually-hidden">Типы товаров</h2>
                 <ul class="type-of-goods-list">
@@ -190,7 +190,7 @@
                 </div>
             </div>
         </section>
-        <section class="popular-goods">
+        <section class="popular-goods container">
             <div class="popular-goods-title-wrap">
                 <h2 class="popular-goods-title">Популярные товары:</h2>
                 <a href="#" class="popular-goods-button red-button">Все популярные товары</a>
@@ -248,7 +248,7 @@
                 </li>
             </ul>
         </section>
-        <section class="popular-brand">
+        <section class="popular-brand container">
             <div class="popular-brand-title-wrap">
                 <h2 class="popular-brand-title">Популярные производители:</h2>
                 <a href="#" class="popular-brand-button red-button">Все производители</a>
@@ -297,40 +297,36 @@
             </ul>
         </section>
         <section class="services">
-            <h2 class="services-title">Сервисы</h2>
-            <p class="about-services">Хороший интернет-магазин отличается от плохого не только ценами!
-                Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
-            <div class="services-wrap">
-                <ul class="services-list">
-                    <li class="services-item"><a href="#">Доставка</a></li>
-                    <li class="services-item"><a href="#">Гарантия</a></li>
-                    <li class="services-item"><a href="#">Кредит</a></li>
-                </ul>
-                <div class="services-slider delivery">
-                    <h3 class="services-slider-title">Доставка</h3>
-                    <p class="services-slider-description">Мы с удовольствием доставим ваш товар прямо
-                        к вашему подъезду совершенно бесплатно!
-                        Ведь мы неплохо заработаем,
-                        поднимая его на ваш этаж!</p>
-                    <span class="services-slider-logo"><img src="img/services_delivery.png" width="206" height="146"
-                            alt="Грузовик"></span>
-                </div>
-                <div class="services-slider guarantee">
-                    <h3 class="services-slider-title">Гарантия</h3>
-                    <p class="services-slider-description">Если купленный у нас товар поломается или заискрит,
-                        а также в случае пожара, спровоцированного его возгаранием, вы всегда можете быть уверены в
-                        нашей гарантии. Мы обменяем сгоревший товар на новый.
-                        Дом уж восстановите как-нибудь сами.</p>
-                    <span class="services-slider-logo"><img src="img/services_guarantee.png" width="170" height="172"
-                            alt="Знак качества"></span>
-                </div>
-                <div class="services-slider credit">
-                    <h3 class="services-slider-title">Кредит</h3>
-                    <p class="services-slider-description">Залезть в долговую яму стало проще!
-                        Кредитные консультанты придут вам на помощь.</p>
-                    <button type="button" class="credit-slider-button">Отправить заявку</button>
-                    <span class="services-slider-logo"><img src="img/services_credit.png" width="181" height="184"
-                            alt="Кредитный договор"></span>
+            <div class="services-wrapper container">
+                <h2 class="services-title">Сервисы</h2>
+                <p class="about-services">Хороший интернет-магазин отличается от плохого не только ценами!
+                    Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
+                <div class="services-slider-wrap">
+                    <ul class="services-list">
+                        <li class="services-item active"><a href="#">Доставка</a></li>
+                        <li class="services-item"><a href="#">Гарантия</a></li>
+                        <li class="services-item"><a href="#">Кредит</a></li>
+                    </ul>
+                    <div class="services-slider delivery">
+                        <h3 class="services-slider-title">Доставка</h3>
+                        <p class="services-slider-description">Мы с удовольствием доставим ваш товар прямо<br>
+                            к вашему подъезду совершенно бесплатно!<br>
+                            Ведь мы неплохо заработаем,<br>
+                            поднимая его на ваш этаж!</p>
+                    </div>
+                    <div class="services-slider guarantee">
+                        <h3 class="services-slider-title">Гарантия</h3>
+                        <p class="services-slider-description">Если купленный у нас товар поломается или заискрит,<br>
+                            а также в случае пожара, спровоцированного его возгаранием, вы всегда можете быть уверены в
+                            нашей гарантии. Мы обменяем сгоревший товар на новый.<br>
+                            Дом уж восстановите как-нибудь сами.</p>
+                    </div>
+                    <div class="services-slider credit">
+                        <h3 class="services-slider-title">Кредит</h3>
+                        <p class="services-slider-description">Залезть в долговую яму стало проще!
+                            Кредитные консультанты придут вам на помощь.</p>
+                        <button type="button" class="credit-slider-button red-button">Отправить заявку</button>
+                    </div>
                 </div>
             </div>
         </section>
