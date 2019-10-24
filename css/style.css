@@ -604,13 +604,15 @@ input[type="radio"].visually-hidden {
 
 .type-of-goods-item a {
     display: inline-block;
+    width: 135px;
     margin-left: 25px;
     margin-bottom: 22px;
-    padding: 10px 24px;
+    padding: 10px 0;
 
     font-size: 14px;
     line-height: 18px;
     color: #ffffff;
+    text-align: center;
     text-decoration: none;
 
     background-color: rgba(0, 0, 0, 0.1);
@@ -660,4 +662,244 @@ input[type="radio"].visually-hidden {
     color: #ffffff;
 
     transform: rotate(45deg);
+}
+
+.promo-sliders-wrapper {
+    display: flex;
+}
+
+.slider {
+    position: relative;
+
+    width: 620px;
+    margin-right: 20px;
+}
+
+.slider-2 {
+    display: none;
+}
+
+.slider-logo {
+    width: 620px;
+    height: 266px;
+}
+
+.slider-logo img {
+    width: 620px;
+    height: 266px;
+}
+
+.slider-card {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    padding: 23px 20px 23px 25px;
+}
+
+.slider-title {
+    margin: 0;
+    padding-bottom: 2px;
+
+    font-size: 36px;
+    line-height: 36px;
+    color: #ffffff;
+}
+
+.slider-slogan {
+    margin: 0;
+    padding-bottom: 120px;
+
+    font-style: 18px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+.catalog-link {
+    display: block;
+    width: 195px;
+    padding: 10px 0;
+
+    font-style: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+
+    background-color: #ee3643;
+    border-radius: 2px;
+}
+
+.catalog-link:hover {
+    background-color: #ca2c37;
+}
+
+.catalog-link:active {
+    background-color: #ba2732;
+}
+
+.slider-arrow {
+    width: 30px;
+    height: 30px;
+
+    background-color: transparent;
+    border: 4px solid #ffffff;
+
+    transform: rotate(45deg);
+
+    cursor: pointer;
+}
+
+.slider-arrow-left {
+    position: absolute;
+    top: 114px;
+    left: 25px;
+
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-radius: 4px 0 4px 0;
+    outline: none;
+}
+
+.slider-arrow-right {
+    position: absolute;
+    top: 114px;
+    right: 20px;
+
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-radius: 4px 0 4px 0;
+    outline: none;
+}
+
+.slider-switches-list {
+    position: absolute;
+    bottom: 36px;
+    left: 50%;
+
+    display: flex;
+    align-items: center;
+    width: 30px;
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.slider-switches-item {
+    display: inline-block;
+}
+
+.slider-switch-left {
+    margin-right: 10px;
+}
+
+.slider-switch {
+    display: block;
+    width: 10px;
+    height: 10px;
+    padding: 0;
+
+    background-color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+
+    cursor: pointer;
+}
+
+.slider-switch.active {
+    background-color: #ee3643;
+    border: 2px solid #ffffff;
+}
+
+.benefits {
+    width: 300px;
+}
+
+.benefits-list {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.benefits-item {
+    position: relative;
+
+    display: block;
+    width: 300px;
+    margin: 0;
+    padding-top: 22px;
+}
+
+.benefits-title {
+    margin: 0;
+    padding-left: 23px;
+    padding-bottom: 11px;
+
+    font-size: 24px;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+.benefits-item a {
+    display: inline-block;
+    width: 135px;
+    margin-left: 25px;
+    margin-bottom: 22px;
+    padding: 10px 0;
+
+    font-size: 14px;
+    line-height: 18px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+}
+
+.benefits-item a:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.benefits-item a:active {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.benefit-sales {
+    background-color: #8ed78f;
+
+    margin-bottom: 20px;
+}
+
+.benefit-sales::after {
+    content: "";
+
+    position: absolute;
+    top: 26px;
+    right: 45px;
+
+    width: 59px;
+    height: 72px;
+
+    background: url("../img/icon-sales-4.svg") center no-repeat;
+}
+
+.benefit-delivery {
+    background-color: #ffc047;
+}
+
+.benefit-delivery::after {
+    content: "";
+
+    position: absolute;
+    top: 32px;
+    right: 31px;
+
+    width: 78px;
+    height: 63px;
+
+    background: url("../img/icon-delivery-5.svg") center no-repeat;
 }
