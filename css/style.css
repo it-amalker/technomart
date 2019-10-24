@@ -38,11 +38,12 @@ input[type="radio"].visually-hidden {
     display: inline-block;
     padding: 10px 0;
 
-    font-style: 14px;
+    font-size: 14px;
     line-height: 18px;
     text-align: center;
     color: #ffffff;
     text-decoration: none;
+    text-transform: uppercase;
 
     background-color: #ee3643;
     border-radius: 2px;
@@ -547,7 +548,9 @@ input[type="radio"].visually-hidden {
 
 .type-of-goods-list {
     margin: 0;
-    padding: 59px 0 20px 0;
+    margin-top: 59px;
+    padding: 0;
+    padding-bottom: 20px;
 
     list-style: none;
 }
@@ -636,6 +639,7 @@ input[type="radio"].visually-hidden {
     line-height: 18px;
     color: #ffffff;
     text-align: center;
+    text-transform: uppercase;
     text-decoration: none;
 
     background-color: rgba(0, 0, 0, 0.1);
@@ -694,6 +698,7 @@ input[type="radio"].visually-hidden {
 
 .promo-sliders-wrapper {
     display: flex;
+    margin-bottom: 53px;
 }
 
 .slider {
@@ -731,6 +736,7 @@ input[type="radio"].visually-hidden {
 
     font-size: 36px;
     line-height: 36px;
+    text-transform: uppercase;
     color: #ffffff;
 }
 
@@ -738,8 +744,9 @@ input[type="radio"].visually-hidden {
     margin: 0;
     padding-bottom: 120px;
 
-    font-style: 18px;
+    font-size: 18px;
     line-height: 24px;
+    font-family: 'PT Sans', 'Arial', sans-serif;
     color: #ffffff;
 }
 
@@ -864,6 +871,7 @@ input[type="radio"].visually-hidden {
     color: #ffffff;
     text-align: center;
     text-decoration: none;
+    text-transform: uppercase;
 
     background-color: rgba(0, 0, 0, 0.1);
     border-radius: 2px;
@@ -914,16 +922,18 @@ input[type="radio"].visually-hidden {
 }
 
 .popular-goods {
-    margin-top: 53px;
+    margin-bottom: 20px;
 }
 
-.popular-goods-title-wrap {
+.popular-goods-title-wrap,
+.popular-brand-title-wrap {
     margin-bottom: 20px;
 
     background-color: #f9f5f0;
 }
 
-.popular-goods-title {
+.popular-goods-title,
+.popular-brand-title {
     display: inline-block;
     width: 320px;
     margin: 0;
@@ -933,7 +943,14 @@ input[type="radio"].visually-hidden {
     font-size: 30px;
     line-height: 30px;
     text-align: center;
+    text-transform: uppercase;
     color: #32425c;
+}
+
+.popular-brand-title {
+    width: 400px;
+    margin-right: 263px;
+    padding: 29px 0 30px 0;
 }
 
 .popular-goods-button {
@@ -1009,7 +1026,8 @@ input[type="radio"].visually-hidden {
 }
 
 .popular-goods-item-title {
-    margin: 0;
+    width: 160px;
+    margin: 0 auto;
     padding-bottom: 16px;
 
     font-size: 18px;
@@ -1019,7 +1037,6 @@ input[type="radio"].visually-hidden {
 
 .last-price {
     display: block;
-
     padding-bottom: 12px;
 
     font-size: 17px;
@@ -1081,7 +1098,7 @@ input[type="radio"].visually-hidden {
     width: 135px;
 
     font: inherit;
-    font-style: 14px;
+    font-size: 14px;
     line-height: 18px;
     text-align: center;
     text-transform: uppercase;
@@ -1119,8 +1136,7 @@ input[type="radio"].visually-hidden {
 }
 
 .buy-button:active {
-    margin-bottom: 4px;
-    padding: 10px 0;
+    padding: 10px 0 7px 0;
 
     background-color: #518534;
 
@@ -1138,7 +1154,7 @@ input[type="radio"].visually-hidden {
     width: 135px;
 
     font: inherit;
-    font-style: 14px;
+    font-size: 14px;
     line-height: 18px;
     text-align: center;
     text-transform: uppercase;
@@ -1157,4 +1173,99 @@ input[type="radio"].visually-hidden {
 .bookmark-button:active {
     border: 3px solid rgba(50, 66, 92, 0.3);
     color: rgba(50, 66, 92, 0.3);
+}
+
+.popular-brand-button {
+    width: 253px;
+}
+
+.popular-brand-list {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.popular-brand-item {
+    width: 218px;
+    height: 143px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+    border: 1px solid #eaeaea;
+}
+
+.popular-brand-item a {
+    display: block;
+    width: 218px;
+    height: 143px;
+}
+
+.popular-brand-item a:hover {
+    box-shadow: 0 10px 25px 0 rgba(41, 52, 73, 0.5);
+}
+
+.popular-brand-item a:active {
+    box-shadow: 0 4px 10px 0 rgba(41, 52, 73, 0.5);
+}
+
+.popular-brand-item:nth-of-type(4n + 4) {
+    margin-right: 0;
+}
+
+.popular-brand-item:nth-of-type(n + 5) {
+    margin-bottom: 85px;
+}
+
+.popular-brand-item img {
+    position: relative;
+    top: 50%;
+
+    display: block;
+    margin: 0 auto;
+
+    transform: translateY(-50%);
+}
+
+.popular-brand-item:first-of-type img {
+    width: 126px;
+    height: 37px;
+}
+
+.popular-brand-item:nth-of-type(2) img {
+    width: 123px;
+    height: 40px;
+}
+
+.popular-brand-item:nth-of-type(3) img {
+    width: 146px;
+    height: 44px;
+}
+
+.popular-brand-item:nth-of-type(4) img {
+    width: 200px;
+    height: 88px;
+}
+
+.popular-brand-item:nth-of-type(5) img {
+    width: 169px;
+    height: 31px;
+}
+
+.popular-brand-item:nth-of-type(6) img {
+    width: 121px;
+    height: 73px;
+}
+
+.popular-brand-item:nth-of-type(7) img {
+    width: 151px;
+    height: 96px;
+}
+
+.popular-brand-item:last-of-type img {
+    width: 204px;
+    height: 69px;
 }
