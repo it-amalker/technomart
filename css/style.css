@@ -1549,7 +1549,8 @@ input[type="radio"].visually-hidden {
     background-color: #32425c;
 }
 
-.footer-top {
+.footer-top,
+.footer-middle {
     display: flex;
 }
 
@@ -1564,30 +1565,64 @@ input[type="radio"].visually-hidden {
     line-height: 30px;
 }
 
-.footer-menu {
+.footer-menu,
+.footer-product-menu {
     width: 560px;
     margin: 0;
     padding: 0;
 
+    text-align: right;
+
     list-style: none;
 }
 
-.footer-menu-item {
+.footer-menu-item,
+.footer-product-menu-item {
     display: inline-block;
     padding-top: 37px;
     padding-left: 58px;
-
-    text-align: right;
-    vertical-align: middle;
 }
 
-.footer-menu-item:first-child {
+.footer-product-menu-item {
+    padding-top: 34px;
+}
+
+.footer-menu-item:first-child,
+.footer-product-menu-item:first-child {
     padding-left: 0;
 }
 
-.footer-menu-item a {
+.footer-menu-item a,
+.footer-product-menu-item a {
     font-size: 18px;
     line-height: 24px;
     color: #ffffff;
     text-decoration: none;
+}
+
+.footer-product-menu-item a {
+    color: #ffd180;
+}
+
+.footer-menu-item a:hover,
+.footer-product-menu-item a:hover {
+    text-decoration: underline;
+}
+
+.footer-menu-item a:active,
+.footer-product-menu-item a:active {
+    text-decoration: none;
+
+    opacity: 0.5;
+}
+
+.footer-contacts p {
+    width: 380px;
+    margin: 0;
+    padding-top: 34px;
+    padding-bottom: 50px;
+
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
 }
