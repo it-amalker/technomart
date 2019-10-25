@@ -1550,7 +1550,8 @@ input[type="radio"].visually-hidden {
 }
 
 .footer-top,
-.footer-middle {
+.footer-middle,
+.footer-bottom {
     display: flex;
 }
 
@@ -1625,4 +1626,140 @@ input[type="radio"].visually-hidden {
     font-size: 18px;
     line-height: 24px;
     color: #ffffff;
+}
+
+.footer-bottom-wrapper {
+    background-color: #293449;
+}
+
+.footer-bottom {
+    display: flex;
+    align-items: center;
+}
+
+.footer-copyright p {
+    width: 240px;
+    margin: 0;
+    padding: 37px 0 34px 0;
+
+    font-size: 16px;
+    line-height: 18px;
+    color: #ffffff;
+}
+
+.footer-social {
+    display: block;
+    width: 400px;
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.footer-social li {
+    display: inline-block;
+}
+
+.footer-social li:first-child {
+    padding-left: 150px;
+}
+
+.footer-social-item {
+    position: relative;
+
+    display: block;
+    width: 41px;
+    height: 41px;
+    padding-right: 2px;
+
+    background-color: #212a3a;
+    border-radius: 50%;
+}
+
+.footer-social-item:hover,
+.footer-social-item:active {
+    background-color: #ee3643;
+}
+
+.social-vk::after {
+    content: "";
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 26px;
+    height: 15px;
+    margin-top: -7px;
+    margin-left: -13px;
+
+    background: url("../img/vk-icon.svg") center no-repeat;
+}
+
+.social-fb::after {
+    content: "";
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 12px;
+    height: 22px;
+    margin-top: -11px;
+    margin-left: -6px;
+
+    background: url("../img/fb-icon.svg") center no-repeat;
+}
+
+.social-insta::after {
+    content: "";
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 21px;
+    height: 21px;
+    margin-top: -10px;
+    margin-left: -10px;
+
+    background: url("../img/insta-icon.svg") center no-repeat;
+}
+
+.email {
+    width: 189px;
+}
+
+.developer {
+    width: 111px;
+}
+
+.email b,
+.email a,
+.developer b,
+.developer a {
+    width: 189px;
+
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: normal;
+
+    color: #ffffff;
+}
+
+.email a,
+.developer a {
+    color: #ffd180;
+    text-decoration: none;
+}
+
+.email a:hover,
+.developer a:hover {
+    text-decoration: underline;
+}
+
+.email a:active,
+.developer a:active {
+    color: #ee3643;
+    text-decoration: none;
 }
