@@ -340,6 +340,8 @@ input[type="radio"].visually-hidden {
 
     background-color: #ffffff;
     border: none;
+
+    cursor: pointer;
 }
 
 .user-login-button::before {
@@ -382,6 +384,8 @@ input[type="radio"].visually-hidden {
 
     background-color: #ffffff;
     border: none;
+
+    cursor: pointer;
 }
 
 .user-registration-button:hover {
@@ -1364,7 +1368,7 @@ input[type="radio"].visually-hidden {
 }
 
 .delivery {
-    display: none;
+    display: block;
 }
 
 .guarantee {
@@ -1372,7 +1376,7 @@ input[type="radio"].visually-hidden {
 }
 
 .credit {
-    display: block;
+    display: none;
 }
 
 .services-slider-title {
@@ -1442,5 +1446,102 @@ input[type="radio"].visually-hidden {
     width: 195px;
 
     border: none;
+}
 
+.contact-delivery-info {
+    display: flex;
+    padding: 77px 0 86px 0;
+}
+
+.about-delivery {
+    width: 640px;
+}
+
+.about-delivery-title {
+    margin: 0;
+    padding-bottom: 26px;
+
+    font-style: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.about-delivery p,
+.office-address p {
+    width: 540px;
+    margin: 0;
+    padding-bottom: 25px;
+
+    font-size: 13px;
+    line-height: 24px;
+    font-family: 'PT Sans', 'Arial', sans-serif;
+}
+
+.about-delivery p:last-of-type {
+    padding-bottom: 22px;
+}
+
+.delivery-partners-list {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.delivery-partner {
+    position: relative;
+
+    padding-left: 36px;
+    padding-bottom: 20px;
+
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: bold;
+}
+
+.delivery-partner::before {
+    content: "";
+
+    position: absolute;
+    top: 9px;
+    left: 0;
+
+    width: 25px;
+    height: 2px;
+
+    background-color: #ee3643;
+}
+
+.delivery-partner:last-child {
+    padding-bottom: 36px;
+}
+
+.about-delivery-button {
+    width: 220px;
+}
+
+.office-address {
+    width: 300px;
+}
+
+.office-address p {
+    padding-bottom: 33px;
+}
+
+.open-modal-write-us {
+    width: 300px;
+
+    border: none;
+    cursor: pointer;
+}
+
+.map {
+    padding-bottom: 40px;
+    width: 300px;
+    height: 158px;
+}
+
+.map img {
+    width: 300px;
+    height: 158px;
 }
