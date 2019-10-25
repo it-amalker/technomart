@@ -408,20 +408,31 @@
         </div>
     </footer>
     <section class="modal-map">
-        <iframe src="https://yandex.ru/map-widget/v1/-/CBF9nKAJWA"></iframe>
-        <button type="button" class="modal-map-close-button"><span class="visually-hidden">Закрыть</span></button>
+        <div class="map-wrapper">
+            <iframe src="https://yandex.ru/map-widget/v1/-/CBF9nKAJWA"></iframe>
+            <button type="button" class="modal-map-close-button"><span class="visually-hidden">Закрыть</span></button>
+        </div>
     </section>
     <section class="modal-write-us">
-        <form action="" method="post">
-            <label for="name">Ваше имя:</label>
-            <input type="text" name="name" id="name" placeholder="Представьтесь, пожалуйста">
-            <label for="name">Ваш e-mail:</label>
-            <input type="email" name="email" id="email" placeholder="Для отправки ответа">
-            <label for="letter">Текст письма:</label>
-            <textarea name="letter" id="letter" placeholder="В свободной форме"></textarea>
-            <button type="submit" class="modal-write-us-button">Отправить</button>
-        </form>
-        <button type="button" class="modal-write-us-close-button"><span class="visually-hidden">Закрыть</span></button>
+        <div class="modal-write-us-wrapper">
+            <form class="modal-write-us-form" action="" method="post">
+                <div class="form-group">
+                    <label for="name">Ваше имя:</label>
+                    <input type="text" name="name" id="name" placeholder="Представьтесь, пожалуйста">
+                </div>
+                <div class="form-group">
+                    <label for="email">Ваш e-mail:</label>
+                    <input type="email" name="email" id="email" placeholder="Для отправки ответа">
+                </div>
+                <label for="letter">Текст письма:</label>
+                <textarea name="letter" id="letter" placeholder="В свободной форме"></textarea>
+                <button type="submit" class="modal-write-us-button red-button">Отправить</button>
+            </form>
+            <div class="modal-write-us-bottom-wrapper">
+                <button type="button" class="modal-write-us-close-button"><span
+                        class="visually-hidden">Закрыть</span></button>
+            </div>
+        </div>
     </section>
 </body>
 
