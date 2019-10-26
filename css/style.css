@@ -2399,3 +2399,142 @@ input[type="radio"].visually-hidden {
 .filter-form-button:active {
     border: 2px solid #ee3643;
 }
+
+.sort {
+    width: 700px;
+
+    background-color: #f7f3ec;
+}
+
+.sort-title {
+    display: inline-block;
+    width: 141px;
+    margin: 0;
+    padding: 10px 0;
+    padding-left: 19px;
+
+    font-size: 13px;
+    line-height: 18px;
+    font-family: 'PT Sans', 'Arial', sans-serif;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.sort-menu {
+    display: inline-block;
+    width: 480px;
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.sort-menu-item {
+    display: inline-block;
+    border-bottom: 1px dotted #ee3643;
+}
+
+.sort-menu-item:first-child {
+    margin-left: 80px;
+    margin-right: 69px;
+}
+
+.sort-menu-item:nth-child(2) {
+    margin-right: 63px;
+}
+
+.sort-menu-item a {
+    display: block;
+
+    font-size: 13px;
+    line-height: 18px;
+    font-family: 'PT Sans', 'Arial', sans-serif;
+    color: rgba(0, 0, 0, 0.3);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.sort-menu-item:hover {
+    border-bottom: 1px solid #ee3643;
+}
+
+.sort-menu-item a:hover {
+    color: rgba(0, 0, 0, 1);
+}
+
+.sort-menu-item.active {
+    border-bottom: none;
+}
+
+.sort-menu-item.active a {
+    color: #ee3643;
+}
+
+.sort-arrows {
+    display: inline-block;
+    width: 53px;
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.top-down-arrows-list {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.sort-arrow {
+    display: inline-block;
+
+    vertical-align: center;
+    width: 11px;
+    height: 10px;
+}
+
+.sort-arrow-up {
+    margin-right: 10px;
+}
+
+.top-sort-arrow,
+.down-sort-arrow {
+    display: block;
+
+    border-width: 10px 5.5px;
+    border-style: solid;
+    border-color: #c5c5c5;
+
+    border-top: none;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
+.top-sort-arrow {
+    padding-top: 3px;
+}
+
+.down-sort-arrow {
+    transform: rotate(180deg) translateY(-3px);
+}
+
+.sort-arrow a:hover {
+    border-color: #000000;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
+.sort-arrow a:active {
+    border-color: #ee3643;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
+.sort-arrow.active a {
+    border-color: #ee3643;
+    border-left-color: transparent;
+    border-right-color: transparent;
+
+    cursor: auto;
+}
