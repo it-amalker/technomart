@@ -988,10 +988,11 @@ input[type="radio"].visually-hidden {
     list-style: none;
 }
 
-.popular-goods-item {
+.popular-goods-item,
+.catalog-item {
     position: relative;
 
-    width: 220px;
+    width: 218px;
     margin-right: 20px;
 
     text-align: center;
@@ -999,17 +1000,28 @@ input[type="radio"].visually-hidden {
     border: 1px solid #eaeaea;
 }
 
-.popular-goods-item:hover {
+.catalog-item {
+    margin-bottom: 20px;
+}
+
+.catalog-item:nth-child(n + 7) {
+    margin-bottom: 0;
+}
+
+.popular-goods-item:hover,
+.catalog-item:hover {
     border: 1px solid transparent;
 
     box-shadow: 0px 10px 25px 0px rgba(41, 52, 73, 0.5);
 }
 
-.popular-goods-item:hover img {
+.popular-goods-item:hover img,
+.catalog-item:hover img {
     display: none;
 }
 
-.popular-goods-item:hover .catalog-item-popup {
+.popular-goods-item:hover .catalog-item-popup,
+.catalog-item:hover .catalog-item-popup {
     display: block;
 }
 
@@ -1017,12 +1029,18 @@ input[type="radio"].visually-hidden {
     margin-right: 0;
 }
 
-.popular-goods-img {
+.catalog-item:nth-child(3n + 3) {
+    margin-right: 0;
+}
+
+.popular-goods-img,
+.catalog-item-image {
     width: 218px;
     height: 181px;
 }
 
-.popular-goods-img img {
+.popular-goods-img img,
+.catalog-item-image img {
     position: relative;
     top: 50%;
 
@@ -1048,7 +1066,18 @@ input[type="radio"].visually-hidden {
     height: 128px;
 }
 
-.popular-goods-item-title {
+.catalog-item img {
+    width: 127px;
+    height: 112px;
+}
+
+.catalog-item:nth-of-type(3n + 2) img {
+    width: 144px;
+    height: 128px;
+}
+
+.popular-goods-item-title,
+.catalog-item-title {
     width: 160px;
     margin: 0 auto;
     padding-bottom: 16px;
@@ -1058,7 +1087,8 @@ input[type="radio"].visually-hidden {
     font-family: 'PT Sans', 'Arial', sans-serif;
 }
 
-.last-price {
+.last-price,
+.catalog-price-before {
     display: block;
     padding-bottom: 12px;
 
@@ -1073,7 +1103,8 @@ input[type="radio"].visually-hidden {
     padding-top: 18px;
 }
 
-.current-price {
+.current-price,
+.catalog-price-current {
     position: relative;
 
     display: inline-block;
@@ -1088,7 +1119,8 @@ input[type="radio"].visually-hidden {
     background-color: #ee3643;
 }
 
-.current-price:after {
+.current-price:after,
+.catalog-price-current::after {
     content: "";
 
     position: absolute;
@@ -2402,6 +2434,7 @@ input[type="radio"].visually-hidden {
 
 .sort {
     width: 700px;
+    margin-bottom: 20px;
 
     background-color: #f7f3ec;
 }
@@ -2537,4 +2570,13 @@ input[type="radio"].visually-hidden {
     border-right-color: transparent;
 
     cursor: auto;
+}
+
+.catalog-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
 }
