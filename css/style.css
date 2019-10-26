@@ -2576,7 +2576,60 @@ input[type="radio"].visually-hidden {
     display: flex;
     flex-wrap: wrap;
     margin: 0;
+    margin-bottom: 52px;
     padding: 0;
 
     list-style: none;
+}
+
+.pagination {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.pagination-item {
+    display: inline-block;
+    margin-right: 7px;
+}
+
+.pagination-item a {
+    display: block;
+    width: 34px;
+    padding: 8px 0;
+
+    font-size: 13px;
+    line-height: 18px;
+    font-family: 'PT Sans', 'Arial', sans-serif;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    background-color: #ffffff;
+    border: 2px solid #e5e5e5;
+    border-radius: 2px;
+
+    outline: none;
+}
+
+.pagination-item:last-child a {
+    width: 140px;
+}
+
+.pagination-item.current a,
+.pagination-item.current a:hover {
+    color: #ffffff;
+
+    background-color: #ee3643;
+    border: 2px solid #ee3643;
+}
+
+.pagination-item a:hover {
+    border: 2px solid #bdc6ca;
+}
+
+.pagination-item a:active {
+    border: 2px solid #ee3643;
 }
