@@ -227,6 +227,18 @@ input[type="radio"].visually-hidden {
     opacity: 0.5;
 }
 
+.header-cart.active svg {
+    opacity: 0.3;
+}
+
+.header-cart.active a {
+    background-color: #ee3643;
+}
+
+.header-cart.active svg {
+    opacity: 0.3;
+}
+
 .header-place-order {
     width: 150px;
 }
@@ -323,6 +335,14 @@ input[type="radio"].visually-hidden {
 
 .authorization-active {
     display: none;
+}
+
+.authorization-inactive.inner-page {
+    display: none;
+}
+
+.authorization-active.inner-page {
+    display: block;
 }
 
 .user-login-button {
@@ -1930,4 +1950,88 @@ input[type="radio"].visually-hidden {
     height: 113px;
 
     background-color: #f4f4f4;
+}
+
+.breadcrumbs {
+    margin: 0;
+    padding: 20px 0;
+
+    list-style: none;
+}
+
+.breadcrumbs-item {
+    position: relative;
+
+    display: inline-block;
+
+    vertical-align: middle;
+}
+
+.breadcrumbs-item a {
+    font-size: 13px;
+    line-height: 18px;
+    font-family: 'PT Sans', 'Arial', sans-serif;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.breadcrumbs-item:first-child {
+    width: 14px;
+    padding-right: 38px;
+}
+
+.breadcrumbs-item:nth-child(2) {
+    padding-right: 37px;
+}
+
+.breadcrumbs-item:nth-child(3) {
+    padding-right: 41px;
+}
+
+.breadcrumbs-item:first-child::before {
+    content: "";
+
+    position: absolute;
+    top: 50%;
+    left: 0;
+
+    width: 14px;
+    height: 12px;
+    margin-top: -6px;
+
+    background: url("../img/icon-home.svg") center no-repeat;
+}
+
+.breadcrumbs-item:first-child::after,
+.breadcrumbs-item:nth-child(2)::after,
+.breadcrumbs-item:nth-child(3)::after {
+    content: "";
+
+    position: absolute;
+    top: 2px;
+    left: 23px;
+
+    width: 10px;
+    height: 10px;
+
+    border: 2px solid #c5c9d1;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    border-radius: 0 0 2px 0;
+
+    transform: rotate(-45deg);
+}
+
+.breadcrumbs-item:first-child::after {
+    top: -7px;
+}
+
+.breadcrumbs-item:nth-child(2)::after {
+    left: 64px;
+}
+
+.breadcrumbs-item:nth-child(3)::after {
+    left: 92px;
 }
