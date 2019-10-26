@@ -1843,7 +1843,8 @@ input[type="radio"].visually-hidden {
 }
 
 .modal-map-close-button,
-.modal-write-us-close-button {
+.modal-write-us-close-button,
+.modal-cart-added-close-button {
     position: absolute;
     top: 9px;
     right: 9px;
@@ -2655,4 +2656,73 @@ input[type="radio"].visually-hidden {
     font-size: 13px;
     line-height: 18px;
     font-family: 'PT Sans', 'Arial', sans-serif;
+}
+
+.modal-cart-added {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+
+    display: none;
+    width: 620px;
+    height: 275px;
+    margin-top: -138px;
+    margin-left: -310px;
+
+    background-color: #ffffff;
+    border-top: 7px solid #ee3643;
+}
+
+.modal-cart-added-wrapper {
+    position: relative;
+
+    width: 460px;
+    margin: 0 auto;
+}
+
+.cart-info {
+    position: relative;
+
+    display: block;
+    padding: 67px 0 66px 99px;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.cart-info::before {
+    content: "";
+
+    position: absolute;
+    top: 48px;
+    left: 1px;
+
+    width: 66px;
+    height: 66px;
+
+    background: url("../img/cart-added-icon.svg") center no-repeat;
+}
+
+.cart-added-wrap {
+    padding: 37px 80px;
+
+    background-color: #f1f1f1;
+}
+
+.modal-order-button {
+    width: 220px;
+    margin-right: 16px;
+}
+
+.modal-continue-shopping-button {
+    width: 220px;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.modal-continue-shopping-button:hover {
+    background-color: #e5e5e5;
+}
+
+.modal-continue-shopping-button:active {
+    background-color: #cccccc;
 }
