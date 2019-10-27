@@ -2686,6 +2686,10 @@ input[type="radio"].visually-hidden {
     border-top: 7px solid #ee3643;
 }
 
+.modal-cart-added--show {
+    display: block; 
+}
+
 .modal-cart-added-wrapper {
     position: relative;
 
