@@ -7,6 +7,7 @@ let buyButtons = document.querySelectorAll(".buy-button");
 let buyCloseButton = document.querySelector(".modal-cart-added-close-button");
 
 let circleSwitches = document.querySelectorAll(".slider-switch");
+let arrowSwitches = document.querySelectorAll(".slider-arrow");
 let promoSliders = document.querySelectorAll(".slider");
 
 
@@ -40,7 +41,7 @@ if (buyPopup) {
     })
 }
 
-// promo slider
+//promo slider
 
 let togglePromoSlider = function (elem) {
     elem.addEventListener("click", function () {
@@ -55,6 +56,20 @@ let togglePromoSlider = function (elem) {
     });
 }
 
+let switchPromoSlider = function (elem) {
+    elem.addEventListener("click", function () {
+        for (let i = 0; i < circleSwitches.length; i++) {
+            circleSwitches[i].classList.remove("active");
+            promoSliders[i].classList.remove("active");
+        }
+        let arrowSwitchesArray = Array.prototype.slice.call(arrowSwitches);
+        let sliderIndex = arrowSwitchesArray.indexOf(elem);
+        circleSwitches[sliderIndex].classList.add("active");
+        promoSliders[sliderIndex].classList.add("active");
+    });
+}
+
 for (let i = 0; i < circleSwitches.length; i++) {
     togglePromoSlider(circleSwitches[i]);
+    switchPromoSlider(arrowSwitches[i]);
 }

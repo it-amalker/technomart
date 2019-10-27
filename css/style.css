@@ -797,6 +797,8 @@ input[type="radio"].visually-hidden {
 }
 
 .slider-arrow {
+    z-index: 1;
+
     width: 30px;
     height: 30px;
 
