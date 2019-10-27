@@ -732,15 +732,26 @@ input[type="radio"].visually-hidden {
     margin-bottom: 53px;
 }
 
-.slider {
+.promo-sliders-wrap {
     position: relative;
-
-    width: 620px;
     margin-right: 20px;
+}
+
+.slider {
+    width: 620px;
+}
+
+.slider-1 {
+    display: none;
 }
 
 .slider-2 {
     display: none;
+}
+
+.slider-1.active,
+.slider-2.active {
+    display: block;
 }
 
 .slider-logo {
@@ -811,7 +822,7 @@ input[type="radio"].visually-hidden {
 .slider-arrow-right {
     position: absolute;
     top: 114px;
-    right: 20px;
+    right: 30px;
 
     border-bottom-color: transparent;
     border-left-color: transparent;
@@ -2687,7 +2698,7 @@ input[type="radio"].visually-hidden {
 }
 
 .modal-cart-added--show {
-    display: block; 
+    display: block;
 }
 
 .modal-cart-added-wrapper {
