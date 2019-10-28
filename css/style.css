@@ -1439,16 +1439,12 @@ input[type="radio"].visually-hidden {
     width: 700px;
 }
 
-.delivery {
+.services-slider {
+    display: none;
+}
+
+.services-slider.active {
     display: block;
-}
-
-.guarantee {
-    display: none;
-}
-
-.credit {
-    display: none;
 }
 
 .services-slider-title {
