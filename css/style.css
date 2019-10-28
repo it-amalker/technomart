@@ -74,8 +74,7 @@ input[type="radio"].visually-hidden {
 
 .main-logo a {
     display: block;
-    padding: 9px 0;
-    padding-bottom: 14px;
+    padding: 10px 0 13px 0;
 
     font-size: 24px;
     line-height: 24px;
@@ -105,7 +104,7 @@ input[type="radio"].visually-hidden {
 .form-search input {
     box-sizing: border-box;
     width: 100%;
-    padding: 11px 17px 13px 49px;
+    padding: 12px 17px 12px 48px;
 
     font-size: 17px;
     line-height: 18px;
@@ -131,7 +130,7 @@ input[type="radio"].visually-hidden {
 
 .search-button {
     position: absolute;
-    top: 11px;
+    top: 12px;
     left: 17px;
 
     width: 17px;
@@ -167,7 +166,7 @@ input[type="radio"].visually-hidden {
 .header-bookmark a,
 .header-cart a {
     display: block;
-    padding: 12px 19px 12px 43px;
+    padding: 12px 19px 12px 44px;
 
     font-size: 17px;
     line-height: 18px;
@@ -275,7 +274,7 @@ input[type="radio"].visually-hidden {
 
 .about-market p {
     margin: 0;
-    padding: 49px 53px 40px 51px;
+    padding: 49px 50px 40px 52px;
 
     font-style: italic;
     font-size: 16px;
@@ -294,7 +293,7 @@ input[type="radio"].visually-hidden {
 
     display: inline-block;
     margin-left: 20px;
-    padding: 10px 49px 8px 71px;
+    padding: 10px 50px 8px 71px;
 
     font-size: 21px;
     line-height: 21px;
@@ -309,7 +308,7 @@ input[type="radio"].visually-hidden {
 
     position: absolute;
     top: 10px;
-    left: 15px;
+    left: 12px;
 
     width: 19px;
     height: 19px;
@@ -319,7 +318,7 @@ input[type="radio"].visually-hidden {
 
 .contact-address {
     margin: 0;
-    padding-top: 5px;
+    padding-top: 4px;
     padding-left: 30px;
 
     font-size: 14px;
@@ -540,7 +539,7 @@ input[type="radio"].visually-hidden {
 
 .menu-item a {
     display: block;
-    padding: 19px 29px 24px 29px;
+    padding: 20px 30px 23px 30px;
 
     font-size: 17px;
     line-height: 17px;
@@ -553,7 +552,7 @@ input[type="radio"].visually-hidden {
 
 .menu-item:first-child a {
     padding-left: 52px;
-    padding-right: 32px;
+    padding-right: 33px;
 }
 
 .menu-item:last-child a {
@@ -587,7 +586,7 @@ input[type="radio"].visually-hidden {
     width: 300px;
     margin: 0;
     margin-right: 16px;
-    padding-top: 22px;
+    padding-top: 21px;
 }
 
 .item-materials {
@@ -646,7 +645,7 @@ input[type="radio"].visually-hidden {
 .type-of-goods-item-title {
     margin: 0;
     padding-left: 23px;
-    padding-bottom: 11px;
+    padding-bottom: 12px;
 
     font-size: 24px;
     line-height: 30px;
@@ -658,7 +657,7 @@ input[type="radio"].visually-hidden {
     width: 135px;
     margin-left: 25px;
     margin-bottom: 22px;
-    padding: 10px 0;
+    padding: 11px 0 9px 0;
 
     font-size: 14px;
     line-height: 18px;
@@ -709,13 +708,13 @@ input[type="radio"].visually-hidden {
     width: 60px;
     height: 60px;
 
-    background-image: linear-gradient(to right top, transparent 50%, #ff5357 50%, #ff5357 80%, transparent 80%);
+    background-image: linear-gradient(to right top, transparent 50%, #ff5357 50%, #ff5357 83%, transparent 83%);
 }
 
 .new-product-text {
     position: absolute;
-    top: 10px;
-    right: -50px;
+    top: 9px;
+    right: -52px;
 
     margin: 0;
 
@@ -769,12 +768,12 @@ input[type="radio"].visually-hidden {
     top: 0;
     left: 0;
 
-    padding: 23px 20px 23px 25px;
+    padding: 23px 20px 23px 24px;
 }
 
 .slider-title {
     margin: 0;
-    padding-bottom: 2px;
+    padding-bottom: 1px;
 
     font-size: 36px;
     line-height: 36px;
@@ -784,7 +783,7 @@ input[type="radio"].visually-hidden {
 
 .slider-slogan {
     margin: 0;
-    padding-bottom: 120px;
+    padding-bottom: 122px;
 
     font-size: 18px;
     line-height: 24px;
@@ -812,8 +811,8 @@ input[type="radio"].visually-hidden {
 
 .slider-arrow-left {
     position: absolute;
-    top: 114px;
-    left: 25px;
+    top: 119px;
+    left: 29px;
 
     border-top-color: transparent;
     border-right-color: transparent;
@@ -823,8 +822,8 @@ input[type="radio"].visually-hidden {
 
 .slider-arrow-right {
     position: absolute;
-    top: 114px;
-    right: 30px;
+    top: 119px;
+    right: 27px;
 
     border-bottom-color: transparent;
     border-left-color: transparent;
@@ -858,7 +857,7 @@ input[type="radio"].visually-hidden {
 .slider-switches-list {
     position: absolute;
     bottom: 36px;
-    left: 50%;
+    left: 295px;
 
     display: flex;
     align-items: center;
@@ -913,13 +912,13 @@ input[type="radio"].visually-hidden {
     display: block;
     width: 300px;
     margin: 0;
-    padding-top: 22px;
+    padding-top: 21px;
 }
 
 .benefits-title {
     margin: 0;
-    padding-left: 23px;
-    padding-bottom: 11px;
+    padding-left: 22px;
+    padding-bottom: 12px;
 
     font-size: 24px;
     line-height: 30px;
@@ -929,9 +928,9 @@ input[type="radio"].visually-hidden {
 .benefits-item a {
     display: inline-block;
     width: 135px;
-    margin-left: 25px;
+    margin-left: 22px;
     margin-bottom: 22px;
-    padding: 10px 0;
+    padding: 11px 0 9px 0;
 
     font-size: 14px;
     line-height: 18px;
@@ -994,6 +993,7 @@ input[type="radio"].visually-hidden {
 
 .popular-goods-title-wrap,
 .popular-brand-title-wrap {
+    display: flex;
     margin-bottom: 20px;
 
     background-color: #f9f5f0;
@@ -1001,27 +1001,27 @@ input[type="radio"].visually-hidden {
 
 .popular-goods-title,
 .popular-brand-title {
-    display: inline-block;
-    width: 320px;
     margin: 0;
-    margin-right: 343px;
-    padding: 29px 0 30px 0;
+    margin-right: 371px;
+    padding: 30px 0 29px 29px;
 
     font-size: 30px;
     line-height: 30px;
-    text-align: center;
+    font-weight: normal;
     text-transform: uppercase;
     color: #32425c;
 }
 
 .popular-brand-title {
-    width: 400px;
-    margin-right: 263px;
-    padding: 29px 0 30px 0;
+    margin-right: 272px;
+    padding-left: 25px;
 }
 
-.popular-goods-button {
+.popular-goods-button,
+.popular-brand-button {
+    display: block;
     width: 253px;
+    margin-top: 25px;
 }
 
 .popular-goods-list {
@@ -1038,8 +1038,6 @@ input[type="radio"].visually-hidden {
 
     width: 218px;
     margin-right: 20px;
-
-    text-align: center;
 
     border: 1px solid #eaeaea;
 }
@@ -1080,7 +1078,7 @@ input[type="radio"].visually-hidden {
 .popular-goods-img,
 .catalog-item-image {
     width: 218px;
-    height: 181px;
+    height: 180px;
 }
 
 .popular-goods-img img,
@@ -1124,21 +1122,23 @@ input[type="radio"].visually-hidden {
 .catalog-item-title {
     width: 160px;
     margin: 0 auto;
-    padding-bottom: 16px;
+    padding-bottom: 11px;
 
     font-size: 18px;
     line-height: 20px;
     font-family: 'PT Sans', 'Arial', sans-serif;
+    text-align: center;
 }
 
 .last-price,
 .catalog-price-before {
     display: block;
-    padding-bottom: 12px;
+    padding-bottom: 10px;
 
     font-size: 17px;
     line-height: 18px;
     font-family: 'PT Sans', 'Arial', sans-serif;
+    text-align: center;
     text-decoration: line-through;
     color: #a9a9a9;
 }
@@ -1152,6 +1152,7 @@ input[type="radio"].visually-hidden {
     position: relative;
 
     display: inline-block;
+    margin-left: 42px;
     margin-bottom: 20px;
     padding: 10px 21px 10px 36px;
 
@@ -1279,10 +1280,6 @@ input[type="radio"].visually-hidden {
     color: rgba(50, 66, 92, 0.3);
 }
 
-.popular-brand-button {
-    width: 253px;
-}
-
 .popular-brand-list {
     display: flex;
     flex-wrap: wrap;
@@ -1375,17 +1372,18 @@ input[type="radio"].visually-hidden {
 }
 
 .services {
-    padding: 63px 0 102px 0;
+    padding: 65px 0 100px 0;
 
     background-color: #f4f8f9;
 }
 
 .services-title {
     margin: 0;
-    padding-bottom: 29px;
+    padding-bottom: 27px;
 
     font-size: 30px;
     line-height: 30px;
+    font-weight: normal;
     text-transform: uppercase;
 }
 
@@ -1408,7 +1406,6 @@ input[type="radio"].visually-hidden {
 
     width: 240px;
     margin: 0;
-    margin-right: 60px;
     padding: 0;
 
     list-style: none;
@@ -1429,8 +1426,9 @@ input[type="radio"].visually-hidden {
 
 .services-item a {
     display: block;
-    padding: 15px 0 16px 0;
-    padding-left: 23px;
+    margin-bottom: 1px;
+    padding: 13px 0 17px 0;
+    padding-left: 22px;
 
     font-size: 21px;
     line-height: 30px;
@@ -1439,7 +1437,7 @@ input[type="radio"].visually-hidden {
     color: #ffffff;
 
     background-color: #32425c;
-    box-shadow: 0 1px 0 0 #293449, inset 0 1px 0 0 #405069;
+    box-shadow: inset 0 1px 0 #405069, 0 1px 0 #293449;
 }
 
 .services-item a:hover {
@@ -1447,28 +1445,20 @@ input[type="radio"].visually-hidden {
 }
 
 .services-item.active a {
-    display: block;
-    padding: 15px 0 16px 0;
-    padding-left: 23px;
-
-    font-size: 21px;
-    line-height: 30px;
-    font-weight: bold;
-    text-decoration: none;
     color: #32425c;
 
     background-color: #ffffff;
+
     box-shadow: 0 1px 0 0 #ffffff;
 }
 
 .services-slider {
     position: relative;
 
-    width: 700px;
-}
-
-.services-slider {
+    box-sizing: border-box;
     display: none;
+    padding-left: 79px;
+    width: 700px;
 }
 
 .services-slider.active {
@@ -1478,10 +1468,12 @@ input[type="radio"].visually-hidden {
 .services-slider-title {
     width: 280px;
     margin: 0;
-    padding-bottom: 25px;
+    padding-bottom: 22px;
 
     font-size: 36px;
     line-height: 36px;
+    font-weight: normal;
+    text-transform: uppercase;
     color: #32425c;
 }
 
@@ -1499,7 +1491,7 @@ input[type="radio"].visually-hidden {
 }
 
 .credit .services-slider-description {
-    padding-bottom: 25px;
+    padding-bottom: 26px;
 }
 
 .delivery::after {
@@ -1531,7 +1523,7 @@ input[type="radio"].visually-hidden {
 
     position: absolute;
     top: 0px;
-    right: 0;
+    right: -10px;
 
     width: 465px;
     height: 285px;
@@ -1546,7 +1538,7 @@ input[type="radio"].visually-hidden {
 
 .contact-delivery-info {
     display: flex;
-    padding: 77px 0 86px 0;
+    padding: 79px 0 86px 0;
 }
 
 .about-delivery {
@@ -1559,6 +1551,7 @@ input[type="radio"].visually-hidden {
 
     font-size: 30px;
     line-height: 30px;
+    font-weight: normal;
     text-transform: uppercase;
 }
 
@@ -1573,8 +1566,12 @@ input[type="radio"].visually-hidden {
     font-family: 'PT Sans', 'Arial', sans-serif;
 }
 
+.office-address p {
+    width: 300px;
+}
+
 .about-delivery p:last-of-type {
-    padding-bottom: 22px;
+    padding-bottom: 20px;
 }
 
 .delivery-partners-list {
@@ -1621,7 +1618,7 @@ input[type="radio"].visually-hidden {
 }
 
 .office-address p {
-    padding-bottom: 33px;
+    padding-bottom: 32px;
 }
 
 .open-modal-write-us {
@@ -1632,7 +1629,7 @@ input[type="radio"].visually-hidden {
 }
 
 .map {
-    padding-bottom: 40px;
+    padding-bottom: 39px;
     width: 300px;
     height: 158px;
 
@@ -1679,12 +1676,12 @@ input[type="radio"].visually-hidden {
 .footer-menu-item,
 .footer-product-menu-item {
     display: inline-block;
-    padding-top: 37px;
-    padding-left: 58px;
+    padding-top: 38px;
+    padding-left: 56px;
 }
 
 .footer-product-menu-item {
-    padding-top: 34px;
+    padding-top: 33px;
 }
 
 .footer-menu-item:first-child,
@@ -1719,8 +1716,7 @@ input[type="radio"].visually-hidden {
 .footer-contacts p {
     width: 380px;
     margin: 0;
-    padding-top: 34px;
-    padding-bottom: 50px;
+    padding: 33px 0 49px 2px;
 
     font-size: 18px;
     line-height: 24px;
@@ -1750,6 +1746,7 @@ input[type="radio"].visually-hidden {
     display: block;
     width: 400px;
     margin: 0;
+    margin-top: 9px;
     padding: 0;
 
     list-style: none;
@@ -1769,7 +1766,6 @@ input[type="radio"].visually-hidden {
     display: block;
     width: 41px;
     height: 41px;
-    padding-right: 2px;
 
     background-color: #212a3a;
     border-radius: 50%;
@@ -1839,8 +1835,8 @@ input[type="radio"].visually-hidden {
 .developer a {
     width: 189px;
 
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 16px;
+    line-height: 18px;
     font-weight: normal;
 
     color: #ffffff;
