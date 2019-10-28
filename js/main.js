@@ -43,55 +43,34 @@ if (buyPopup) {
     })
 }
 
-//promo slider
+//promo slider and services slider
 
-let togglePromoSlider = function (elem) {
-    elem.addEventListener("click", function () {
-        for (let i = 0; i < circleSwitches.length; i++) {
-            circleSwitches[i].classList.remove("active");
-            promoSliders[i].classList.remove("active");
-        }
-        let circleSwitchesArray = Array.prototype.slice.call(circleSwitches);
-        let sliderIndex = circleSwitchesArray.indexOf(elem);
-        elem.classList.add("active");
-        promoSliders[sliderIndex].classList.add("active");
-    });
-}
-
-let switchPromoSlider = function (elem) {
-    elem.addEventListener("click", function () {
-        for (let i = 0; i < circleSwitches.length; i++) {
-            circleSwitches[i].classList.remove("active");
-            promoSliders[i].classList.remove("active");
-        }
-        let arrowSwitchesArray = Array.prototype.slice.call(arrowSwitches);
-        let sliderIndex = arrowSwitchesArray.indexOf(elem);
-        circleSwitches[sliderIndex].classList.add("active");
-        promoSliders[sliderIndex].classList.add("active");
-    });
-}
-
-for (let i = 0; i < circleSwitches.length; i++) {
-    togglePromoSlider(circleSwitches[i]);
-    switchPromoSlider(arrowSwitches[i]);
-}
-
-//services slider
-
-let toggleServicesSlider = function (elem) {
-    elem.addEventListener("click", function (evt) {
+let toggleSliders = function (allSwitches, switchElement, allSliders, byArrows, switchesRelated) {
+    switchElement.addEventListener("click", function (evt) {
         evt.preventDefault();
-        for (let i = 0; i < servicesSwitches.length; i++) {
-            servicesSwitches[i].classList.remove("active");
-            servicesSliders[i].classList.remove("active");
+        for (let i = 0; i < allSwitches.length; i++) {
+            allSwitches[i].classList.remove("active");
+            allSliders[i].classList.remove("active");
+            if (byArrows) {
+                switchesRelated[i].classList.remove("active");
+            }
         }
-        let servicesSwitchesArray = Array.prototype.slice.call(servicesSwitches);
-        let sliderIndex = servicesSwitchesArray.indexOf(elem);
-        elem.classList.add("active");
-        servicesSliders[sliderIndex].classList.add("active");
+        let switchesArray = Array.prototype.slice.call(allSwitches);
+        let sliderIndex = switchesArray.indexOf(switchElement);
+        switchElement.classList.add("active");
+        allSliders[sliderIndex].classList.add("active");
+        if (byArrows) {
+            switchesRelated[sliderIndex].classList.add("active");
+        }
     });
 }
 
-for (let i = 0; i < servicesSwitches.length; i++) {
-    toggleServicesSlider(servicesSwitches[i]);
+let launchToggleSliders = function (switchesList, slidersList, arrowsFlag, switchesAdditional) {
+    for (let i = 0; i < switchesList.length; i++) {
+        toggleSliders(switchesList, switchesList[i], slidersList, arrowsFlag, switchesAdditional);
+    }
 }
+
+launchToggleSliders(circleSwitches, promoSliders);
+launchToggleSliders(servicesSwitches, servicesSliders);
+launchToggleSliders(arrowSwitches, promoSliders, true, circleSwitches);

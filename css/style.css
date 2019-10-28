@@ -832,6 +832,29 @@ input[type="radio"].visually-hidden {
     outline: none;
 }
 
+.slider-arrow.active {
+    border-color:rgba(255, 255, 255, 0.5);
+    
+    cursor: auto;
+}
+
+.slider-arrow-right.active {
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+}
+
+.slider-arrow-left.active {
+    border-top-color: transparent;
+    border-right-color: transparent;
+}
+
+.slider-arrow-right.active {
+    border-color:rgba(255, 255, 255, 0.5);
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    cursor: auto;
+}
+
 .slider-switches-list {
     position: absolute;
     bottom: 36px;
