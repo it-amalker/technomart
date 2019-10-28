@@ -2,6 +2,10 @@ let mapPopup = document.querySelector(".modal-map");
 let mapButton = document.querySelector(".map");
 let mapCloseButton = document.querySelector(".modal-map-close-button");
 
+let writeUsPopup = document.querySelector(".modal-write-us");
+let writeUsButton = document.querySelector(".open-modal-write-us");
+let writeUsCloseButton = document.querySelector(".modal-write-us-close-button");
+
 let buyPopup = document.querySelector(".modal-cart-added");
 let buyButtons = document.querySelectorAll(".buy-button");
 let buyCloseButton = document.querySelector(".modal-cart-added-close-button");
@@ -24,6 +28,20 @@ if (mapPopup) {
     mapCloseButton.addEventListener("click", function () {
         mapPopup.classList.remove("modal-map--show");
         mapPopup.classList.add("modal-map--close");
+    })
+}
+
+//write-us popup
+
+if (writeUsPopup) {
+    writeUsButton.addEventListener("click", function () {
+        writeUsPopup.classList.add("modal-write-us--show");
+        writeUsPopup.classList.remove("modal-write-us--close");
+    })
+
+    writeUsCloseButton.addEventListener("click", function () {
+        writeUsPopup.classList.remove("modal-write-us--show");
+        writeUsPopup.classList.add("modal-write-us--close");
     })
 }
 
