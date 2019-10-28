@@ -1,5 +1,5 @@
 let mapPopup = document.querySelector(".modal-map");
-let mapButton = document.querySelector(".open-modal-write-us");
+let mapButton = document.querySelector(".map");
 let mapCloseButton = document.querySelector(".modal-map-close-button");
 
 let buyPopup = document.querySelector(".modal-cart-added");
@@ -18,10 +18,12 @@ let servicesSliders = document.querySelectorAll(".services-slider");
 if (mapPopup) {
     mapButton.addEventListener("click", function () {
         mapPopup.classList.add("modal-map--show");
+        mapPopup.classList.remove("modal-map--close");
     })
 
     mapCloseButton.addEventListener("click", function () {
         mapPopup.classList.remove("modal-map--show");
+        mapPopup.classList.add("modal-map--close");
     })
 }
 
@@ -71,6 +73,6 @@ let launchToggleSliders = function (switchesList, slidersList, arrowsFlag, switc
     }
 }
 
-launchToggleSliders(circleSwitches, promoSliders);
-launchToggleSliders(servicesSwitches, servicesSliders);
+launchToggleSliders(circleSwitches, promoSliders, true, arrowSwitches);
 launchToggleSliders(arrowSwitches, promoSliders, true, circleSwitches);
+launchToggleSliders(servicesSwitches, servicesSliders);
