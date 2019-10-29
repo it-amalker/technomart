@@ -113,7 +113,8 @@ input[type="radio"].visually-hidden {
 .form-search input {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    width: 100%;
+    width: 270px;
+    height: 42px;
     padding: 12px 17px 12px 48px;
 
     font-size: 17px;
@@ -497,23 +498,23 @@ input[type="radio"].visually-hidden {
     cursor: pointer;
 }
 
-.user-wrapper:hover .user-name::before {
+.user-name:hover::before{
     background: url("../img/icon-user-hover.svg") center no-repeat;
 }
 
-.user-wrapper:hover .user-logout-button {
+.user-logout-button:hover {
     background: url("../img/icon-logout-hover.svg") center no-repeat;
 }
 
-.user-wrapper:active .user-name {
+.user-name:active {
     color: rgba(0, 0, 0, 0.3);
 }
 
-.user-wrapper:active .user-name::before {
+.user-name:active::before {
     background: url("../img/icon-user.svg") center no-repeat;
 }
 
-.user-wrapper:active .user-logout-button {
+.user-logout-button:active {
     background: url("../img/icon-logout.svg") center no-repeat;
 }
 
@@ -2015,6 +2016,7 @@ input[type="radio"].visually-hidden {
 .modal-map iframe {
     width: 100%;
     height: 100%;
+    border: none;
 }
 
 .modal-map-close-button,
@@ -2676,6 +2678,10 @@ input[type="radio"].visually-hidden {
 
 .filter-form-button:active {
     border: 1px solid #ee3643;
+}
+
+.catalog {
+    width: 700px;
 }
 
 .sort {
